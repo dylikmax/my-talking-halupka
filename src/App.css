@@ -1,0 +1,6 @@
+.app-layout {
+  height: 100vh;
+  width: min(435px, 100vw);
+  background-color: white;
+  overflow: hidden;
+}
