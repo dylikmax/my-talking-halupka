@@ -52,7 +52,7 @@ const GamePage = () => {
       y: 0,
       width: 10 + Math.random() * 10, // случайная ширина (10-20%)
       height: 15, // высота
-      speed: 2 + Math.random() * 3, // случайная скорость
+      speed: 2 + Math.random() * 2, // случайная скорость
       comId: Math.floor(Math.random() * 5) + 1
     };
     

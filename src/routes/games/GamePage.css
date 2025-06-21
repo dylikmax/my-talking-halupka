@@ -5,7 +5,7 @@
   background-color: #f0f0f0;
   overflow: hidden;
   touch-action: none;
-  background-image: url("png/location-skins/skin-game.png");
+  background-image: url("/png/location-skins/skin-game.png");
 }
 
 .start-screen, .game-over-screen {
@@ -50,6 +50,7 @@ button {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  background-color: black;
 }
 
 .game-info {
@@ -58,5 +59,4 @@ button {
   left: 10px;
   font-size: 18px;
   z-index: 1;
-  color: white;
 }
