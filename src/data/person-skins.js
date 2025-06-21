@@ -12,6 +12,13 @@ const PERSON_SKINS = [
         cost: 500,
         image: "/png/person-skins/skin-1.png",
         type: "person"
+    },
+        {
+        id: 2,
+        name: "Егор Нечистьлупко",
+        cost: 1500,
+        image: "/png/person-skins/skin-2.png",
+        type: "person"
     }
 ]
 

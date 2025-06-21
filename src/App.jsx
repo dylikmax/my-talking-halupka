@@ -1,6 +1,6 @@
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import RootPage from "./routes/root/RootPage";
-import GamesPage from "./routes/games/GamesPage";
+import GamePage from "./routes/games/GamePage";
 import ShopPage from "./routes/shop/ShopPage";
 import "./App.css"
 
@@ -15,7 +15,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/games",
-        element: <GamesPage/>,
+        element: <GamePage/>,
       },
       {
         path: "/shop",
