@@ -12,7 +12,21 @@ const LOCATION_SKINS = [
         cost: 1000,
         image: "/png/location-skins/skin-1.png",
         type: "location"
-    }
+    },
+    {
+        id: 2,
+        name: "Партизан (Халупка)",
+        cost: 1000,
+        image: "/png/location-skins/skin-2.png",
+        type: "location"
+    },
+    {
+        id: 3,
+        name: "Марьяливо",
+        cost: 2000,
+        image: "/png/location-skins/skin-3.png",
+        type: "location"
+    },
 ]
 
 export default LOCATION_SKINS;
